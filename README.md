@@ -12,12 +12,13 @@ class About extends Me
     public 
     function getBio(): string
     {
-        return 'I am Certified Laravel Developer, PHP Developer, Certified ScrumMaster®, 
-                Project Management, Mentor, Reader. I am a motivated and resourceful Senior Software Engineer. 
-                Enthusiastic about developing forward- thinking solutions to productivity problems. 
-                Demonstrates a hardworking and adaptable approach to challenges with strong analytical 
-                and critical thinking skills. Strong understanding of object- oriented programming, 
-                common web technologies, PHP frameworks, and software architecture.';
+        return 'I am Certified Laravel Developer, PHP Developer, Certified ScrumMaster®, Project Management, 
+                Mentor, Reader. I am a motivated and resourceful Senior Software Engineer. Enthusiastic 
+                about developing forward- thinking solutions to productivity problems. Demonstrates 
+                a hardworking and adaptable approach to challenges with strong analytical and
+                critical thinking skills. Strong understanding of object- oriented 
+                programming, common web technologies, PHP frameworks, and software 
+                architecture.';
     }
 
     public 
