@@ -1,16 +1,65 @@
-### Hi there 👋
+## Hi there, I'm Muhammad Ashraf 👋
 
-<!--
-**AshrafSaeed/AshrafSaeed** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## A little more about me..
 
-Here are some ideas to get you started:
+```php
+<?php
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+namespace MaterOussama;
+
+class About extends Me
+{
+    public function getBio(): string
+    {
+        return 'I am Certified Laravel Developer, PHP Developer, Certified ScrumMaster®, Project Management, Mentor, Reader';
+    }
+
+    public function getMore(): array
+    {
+        return [
+            'work' => [
+                'Senior Software Engineer @64Robots',
+                'Full Stack PHP Freelancer @avanixsolutions',
+            ],
+            'education' => [
+                'BS Computer Science',
+                'Certifed Laravel Developer'
+            ]
+        ];
+    }
+
+    public function getCurrentState(): array 
+    {
+        return [
+            'working_on' => [
+                'Beyond Code Academy Platform',
+                'New Web Workshops'
+            ],
+            'learning' => [
+                'Advance Programing Techniques',
+                ''
+            ],
+            'looking_for' => [
+                'a role with a progressive organization.'
+            ]
+        ];
+    }
+
+    public function getFutureGoal(): string
+    {
+        return 'To contribute to open source.';
+    }
+}
+```
+
+## Connect with me:
+
+[<img align="left" alt="avanixsol | Twitter" src="https://img.icons8.com/color/48/000000/twitter.png" />][twitter]
+[<img align="left" alt="ashraf-saeed | LinkedIn" src="https://img.icons8.com/color/48/000000/linkedin.png" />][linkedin]
+
+<br />
+<br />
+<br />
+
+[twitter]: https://twitter.com/avanixsol
+[linkedin]: https://www.linkedin.com/in/ashraf-saeed/
