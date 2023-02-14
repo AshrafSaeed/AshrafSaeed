@@ -9,12 +9,14 @@ namespace MuhammadAshraf;
 
 class About extends Me
 {
-    public function getBio(): string
+    public 
+    function getBio(): string
     {
         return 'I am Certified Laravel Developer, PHP Developer, Certified ScrumMaster®, Project Management, Mentor, Reader';
     }
 
-    public function getMore(): array
+    public 
+    function getMore(): array
     {
         return [
             'work' => [
@@ -28,7 +30,8 @@ class About extends Me
         ];
     }
 
-    public function getCurrentState(): array 
+    public 
+    function getCurrentState(): array 
     {
         return [
             'working_on' => [
@@ -45,7 +48,8 @@ class About extends Me
         ];
     }
 
-    public function getFutureGoal(): string
+    public 
+    function getFutureGoal(): string
     {
         return 'To contribute to open source.';
     }
