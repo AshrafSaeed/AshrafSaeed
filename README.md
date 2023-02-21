@@ -41,8 +41,8 @@ class About extends Me
     {
         return [
             'working_on' => [
-                'Beyond Code Academy Platform',
-                'New Web Workshops'
+                'PHP Learning curves platform',
+                'Market place, Workshops, '
             ],
             'learning' => [
                 'Advance Programing Techniques',
